@@ -3,7 +3,7 @@
 <html dir="rtl">
 <head><title>موقعي</title></head>
 <body>
-<h1>قائمة الطلاب</h1>
+<h1>  معدل قائمة الطلاب</h1>
 <?php
 $r = $conn->query("SELECT * FROM students");
 while($row = $r->fetch_assoc()){
